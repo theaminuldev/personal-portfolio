@@ -1,0 +1,1125 @@
+@media (max-width: 321.98px) {
+
+    /* =========================== */
+    /* HEDER SECTION */
+    /* =========================== */
+    .header .container {
+        position: relative;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .menu ul li {
+        margin: 5px 0px;
+    }
+
+    .header .mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 6px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    /* ============================== */
+    /* HEDER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* BANNER SECTION STRAT */
+    /* ============================= */
+    .banner {}
+
+    .banner .title {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .banner .title h1 {
+        font-size: 32px;
+    }
+
+    .banner .title h4 {
+        font-size: 24px;
+    }
+
+    .banner .img img {
+        width: 100%;
+        height: 100%
+    }
+
+    /* ============================== */
+    /* BANNER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* ABOUT SECTION STRAT */
+    /* ============================= */
+    .about {
+        padding: 50px 0px;
+    }
+
+    .about .about_caption {
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .about .about_caption h3 {
+        font-size: 32px;
+
+    }
+
+    .about .about_caption .unline {
+        margin: 0 auto;
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* SERVICE SECTION STRAT */
+    /* ============================= */
+    .service {
+        padding: 50px 0px;
+    }
+
+    .service .service_caption {
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .service .service_caption h3 {
+        font-size: 32px;
+    }
+
+    .service .service_caption .unline {
+        margin: 0 auto;
+    }
+
+    .service .service_img {}
+
+    .service .service_img .overly-color {}
+
+    .service .service_img .overly-color i {
+        font-size: 34px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color h4 {
+        font-size: 22px;
+        padding: 5px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color p {
+        padding: 5px 0px 0px 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    /* ============================== */
+    /* SERVICE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* PORTFOLIO SECTION STRAT */
+    /* ============================= */
+    .portflio {
+        padding: 50px 0px;
+    }
+
+    .portflio .portflio-caption {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .portflio .portflio-caption h3 {
+        font-size: 32px;
+    }
+
+    .portflio .portflio-caption .unline {
+        margin: 0 auto;
+    }
+
+    .portflio .portfolio-controllers {
+        padding: 5px;
+    }
+
+    /* ============================== */
+    /* PORTFOLIO SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* Experiences SECTION START */
+    /* ============================= */
+    .experiences {
+        padding: 50px 0px;
+    }
+
+    .experiences .experiences-title {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+
+    }
+
+    .experiences .experiences-title h3 {
+        font-size: 32px;
+    }
+
+    .experiences .experiences-title .unline {
+        margin: 0 auto;
+    }
+
+    .experiences .col-lg-4,
+    .col-md-4 {
+        padding: 15px;
+    }
+
+    .experiences .col-lg-4 .exp-details,
+    .experiences .col-md-4 .exp-details {
+        margin-top: 0px;
+        padding: 40px 30px;
+    }
+
+    .experiences .col-lg-4 .border-none,
+    .experiences .col-md-4 .border-none {
+        border-left: 1px solid #a09e9e;
+        border-right: 1px solid #a09e9e;
+    }
+
+    /* ============================== */
+    /* Experiences SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* HIRE SECTION STRAT */
+    /* ============================= */
+    .hire-me {
+        padding: 50px 0px;
+    }
+
+    .hire-me .hire-title {}
+
+    .hire-me .hire-title h3 {
+        font-size: 32px;
+    }
+
+    .hire-me .hire-title .unline {
+        right: 35%;
+    }
+
+    /* ============================== */
+    /* HIRE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* CONTACT SECTION STRAT */
+    /* ============================= */
+    .contact-us {
+        padding: 50px 0px;
+    }
+
+    .contact-us .contact-title {
+        padding: 0px 0px 30px 90px;
+        margin: 0px;
+    }
+
+    .contact-us .contact-title h3 {
+        font-size: 32px;
+    }
+
+    .contact-us .contact-title .unline {
+        margin-left: 25px;
+    }
+
+    /* ============================== */
+    /* CONTACT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* FOOTER SECTION STRAT */
+    /* ============================= */
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .footer-text {}
+
+    .footer .footer-text ul {
+        padding: 0px;
+    }
+
+    .footer .footer-text ul li {
+        height: 50px;
+        width: 50px;
+        margin: 50px 0px 0px 5px;
+    }
+
+    .footer .footer-text ul li a {
+        line-height: 50px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION END */
+    /* ============================= */
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 322px)and (max-width: 567.98px) {
+
+    /* =========================== */
+    /* HEDER SECTION */
+    /* =========================== */
+    .header .container {
+        position: relative;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .menu ul li {
+        margin: 5px 0px;
+    }
+
+    .header .mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 6px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION STRAT */
+    /* ============================= */
+    .banner {}
+
+    .banner .title {
+        margin: 50px 0px 0px 0px;
+    }
+
+    .banner .title h1 {
+        font-size: 42px;
+    }
+
+    .banner .title h4 {
+        font-size: 24px;
+    }
+
+    .banner .img img {
+        width: 100%;
+        height: 100%
+    }
+
+    /* ============================== */
+    /* BANNER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* ABOUT SECTION STRAT */
+    /* ============================= */
+    .about {
+        padding: 50px 0px;
+    }
+
+    .about .about_caption {
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .about .about_caption h3 {
+        font-size: 36px;
+
+    }
+
+    .about .about_caption .unline {
+        margin: 0 auto;
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* SERVICE SECTION STRAT */
+    /* ============================= */
+    .service {
+        padding: 50px 0px;
+    }
+
+    .service .service_caption {
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .service .service_caption h3 {
+        font-size: 36px;
+    }
+
+    .service .service_caption .unline {
+        margin: 0 auto;
+    }
+
+    .service .service_img {}
+
+    .service .service_img .overly-color {}
+
+    .service .service_img .overly-color i {
+        font-size: 34px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color h4 {
+        font-size: 22px;
+        padding: 5px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color p {
+        padding: 5px 0px 0px 10px;
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    /* ============================== */
+    /* SERVICE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* PORTFOLIO SECTION STRAT */
+    /* ============================= */
+    .portflio {
+        padding: 50px 0px;
+    }
+
+    .portflio .portflio-caption {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .portflio .portflio-caption h3 {
+        font-size: 36px;
+    }
+
+    .portflio .portflio-caption .unline {
+        margin: 0 auto;
+    }
+
+    .portflio .portfolio-controllers {
+        padding: 5px;
+    }
+
+    /* ============================== */
+    /* PORTFOLIO SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* Experiences SECTION START */
+    /* ============================= */
+    .experiences {
+        padding: 50px 0px;
+    }
+
+    .experiences .experiences-title {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+
+    }
+
+    .experiences .experiences-title h3 {
+        font-size: 36px;
+    }
+
+    .experiences .experiences-title .unline {
+        margin: 0 auto;
+    }
+
+    .experiences .col-lg-4,
+    .col-md-4 {
+        padding: 15px;
+    }
+
+    .experiences .col-lg-4 .exp-details,
+    .experiences .col-md-4 .exp-details {
+        margin-top: 0px;
+        padding: 60px 30px;
+    }
+
+    .experiences .col-lg-4 .border-none,
+    .experiences .col-md-4 .border-none {
+        border-left: 1px solid #a09e9e;
+        border-right: 1px solid #a09e9e;
+    }
+
+    /* ============================== */
+    /* Experiences SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* HIRE SECTION STRAT */
+    /* ============================= */
+    .hire-me {
+        padding: 50px 0px;
+    }
+
+    .hire-me .hire-title {}
+
+    .hire-me .hire-title h3 {
+        font-size: 36px;
+    }
+
+    .hire-me .hire-title .unline {
+        right: 42%;
+    }
+
+    /* ============================== */
+    /* HIRE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* CONTACT SECTION STRAT */
+    /* ============================= */
+    .contact-us {
+        padding: 50px 0px;
+    }
+
+    .contact-us .contact-title {
+        padding: 0px 0px 30px 35%;
+        margin: 0px;
+    }
+
+    .contact-us .contact-title h3 {
+        font-size: 36px;
+    }
+
+    .contact-us .contact-title .unline {
+        margin-left: 25px;
+    }
+
+    /* ============================== */
+    /* CONTACT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* FOOTER SECTION STRAT */
+    /* ============================= */
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .footer-text {}
+
+    .footer .footer-text ul {
+        margin: 0 auto;
+    }
+
+    .footer .footer-text ul li {
+        height: 50px;
+        width: 50px;
+        margin: 50px 0px 0px 5px;
+    }
+
+    .footer .footer-text ul li a {
+        line-height: 50px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION END */
+    /* ============================= */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =========================== */
+    /* HEDER SECTION */
+    /* =========================== */
+    .header .container {
+        position: relative;
+    }
+
+    .header .menu {
+        display: none;
+    }
+
+    .header .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .menu ul li {
+        margin: 5px 0px;
+    }
+
+    .header .mobile-menu {
+        display: flex;
+        position: absolute;
+        top: 6px;
+        right: 15px;
+        cursor: pointer;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION STRAT */
+    /* ============================= */
+    .banner {
+        padding: 0px 0px;
+    }
+
+    .banner .title {
+        margin: 70px 0px 70px 0px;
+    }
+
+    .banner .title h1 {
+        font-size: 42px;
+    }
+
+    .banner .title h4 {
+        font-size: 20px;
+    }
+
+    .banner .img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* ABOUT SECTION STRAT */
+    /* ============================= */
+    .about {
+        padding: 70px 0px;
+    }
+
+    .about .about_caption {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .about .about_caption h3 {
+        font-size: 36px;
+
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* SERVICE SECTION STRAT */
+    /* ============================= */
+    .service {
+        padding: 70px 0px;
+    }
+
+    .service .service_caption {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .service .service_caption h3 {
+        font-size: 36px;
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* PORTFOLIO SECTION STRAT */
+    /* ============================= */
+    .portflio {
+        padding: 70px 0px;
+    }
+
+    .portflio .portflio-caption {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .portflio .portflio-caption h3 {
+        font-size: 36px;
+    }
+
+    .portflio .portfolio-controllers {
+        padding: 5px;
+    }
+
+    /* ============================== */
+    /* PORTFOLIO SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* Experiences SECTION START */
+    /* ============================= */
+    .experiences {
+        padding: 70px 0px;
+    }
+
+    .experiences .experiences-title {
+        padding: 0px 0px 30px 0px;
+    }
+
+    .experiences .experiences-title h3 {
+        font-size: 36px;
+    }
+
+    .experiences .experiences-text p {
+        padding-bottom: 20px;
+    }
+
+    .experiences .col-lg-4,
+    .col-md-4 {
+        padding: 15px;
+    }
+
+    .experiences .col-lg-4 .exp-details,
+    .experiences .col-md-4 .exp-details {
+        margin-top: 0px;
+        padding: 70px 30px;
+    }
+
+    .experiences .col-lg-4 .border-none,
+    .experiences .col-md-4 .border-none {
+        border-left: 1px solid #a09e9e;
+        border-right: 1px solid #a09e9e;
+    }
+
+    /* ============================== */
+    /* Experiences SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* HIRE SECTION STRAT */
+    /* ============================= */
+    .hire-me {
+        padding: 70px 0px;
+    }
+
+    .hire-me .hire-title {}
+
+    .hire-me .hire-title h3 {
+        font-size: 36px;
+    }
+
+    .hire-me .hire-title .unline {
+        right: 42%;
+    }
+
+    /* ============================== */
+    /* HIRE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* CONTACT SECTION STRAT */
+    /* ============================= */
+    .contact-us {
+        padding: 70px 0px;
+    }
+
+    .contact-us .contact-title {
+        padding: 0px 0px 30px 35%;
+        margin: 0px;
+    }
+
+    .contact-us .contact-title h3 {
+        font-size: 36px;
+    }
+
+    .contact-us .contact-title .unline {
+        margin-left: 25px;
+    }
+
+    /* ============================== */
+    /* CONTACT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* FOOTER SECTION STRAT */
+    /* ============================= */
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .footer-text {}
+
+    /* ============================== */
+    /* FOOTER SECTION END */
+    /* ============================= */
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ============================== */
+    /* BANNER SECTION STRAT */
+    /* ============================= */
+    .banner {
+        padding: 0px 0px;
+    }
+
+    .banner .title {
+        margin: 70px 0px 70px 0px;
+    }
+
+    .banner .title h1 {
+        font-size: 38px;
+    }
+
+    .banner .title h4 {
+        font-size: 20px;
+    }
+
+    .banner .img img {
+        width: 100%;
+        height: 390px;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* ABOUT SECTION STRAT */
+    /* ============================= */
+    .about {
+        padding: 70px 0px;
+    }
+
+    .about .about_caption {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .about .about_caption h3 {
+        font-size: 36px;
+
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* SERVICE SECTION STRAT */
+    /* ============================= */
+    .service {
+        padding: 70px 0px;
+    }
+
+    .service .service_caption {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .service .service_caption h3 {
+        font-size: 36px;
+    }
+
+    .service .service_img {}
+
+    .service .service_img .overly-color {}
+
+    .service .service_img .overly-color i {
+        font-size: 34px;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color h4 {
+        font-size: 22px;
+        padding: 5px 0px 0px 10px;
+    }
+
+    .service .service_img .overly-color p {
+        padding: 5px 0px 0px 10px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    /* ============================== */
+    /* ABOUT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* PORTFOLIO SECTION STRAT */
+    /* ============================= */
+    .portflio {
+        padding: 70px 0px;
+    }
+
+    .portflio .portflio-caption {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .portflio .portflio-caption h3 {
+        font-size: 36px;
+    }
+
+    .portflio .portfolio-controllers {
+        padding: 5px;
+    }
+
+    /* ============================== */
+    /* PORTFOLIO SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* Experiences SECTION START */
+    /* ============================= */
+    .experiences {
+        padding: 70px 0px;
+    }
+
+    .experiences .experiences-title {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .experiences .experiences-title h3 {
+        font-size: 36px;
+    }
+
+    .experiences .experiences-text p {
+        padding-bottom: 20px;
+    }
+
+    .experiences .col-lg-4,
+    .col-md-4 {
+        padding: 15px;
+    }
+
+    .experiences .col-lg-4 .exp-details,
+    .experiences .col-md-4 .exp-details {
+        margin-top: 0px;
+        padding: 70px 30px;
+    }
+
+    .experiences .col-lg-4 .exp-details h4,
+    .experiences .col-md-4 .exp-details h4 {
+        font-size: 22px;
+    }
+
+    .experiences .col-lg-4 .border-none,
+    .experiences .col-md-4 .border-none {
+        border-left: 1px solid #a09e9e;
+        border-right: 1px solid #a09e9e;
+    }
+
+    /* ============================== */
+    /* Experiences SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* HIRE SECTION STRAT */
+    /* ============================= */
+    .hire-me {
+        padding: 70px 0px;
+    }
+
+    .hire-me .hire-title {}
+
+    .hire-me .hire-title h3 {
+        font-size: 36px;
+    }
+
+    .hire-me .hire-title .unline {
+        right: 42%;
+    }
+
+    /* ============================== */
+    /* HIRE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* CONTACT SECTION STRAT */
+    /* ============================= */
+    .contact-us {
+        padding: 70px 0px;
+    }
+
+    .contact-us .contact-title {
+        padding: 0px 0px 30px 35%;
+        margin: 0px;
+    }
+
+    .contact-us .contact-title h3 {
+        font-size: 36px;
+    }
+
+    .contact-us .contact-title .unline {
+        margin-left: 25px;
+    }
+
+    /* ============================== */
+    /* CONTACT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* FOOTER SECTION STRAT */
+    /* ============================= */
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .footer-text {}
+
+    .footer .footer-text ul {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .footer .footer-text ul li {
+        height: 50px;
+        width: 50px;
+        margin: 50px 0px 0px 10px;
+    }
+
+    .footer .footer-text ul li a {
+        line-height: 50px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION END */
+    /* ============================= */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner {
+        padding: 0px 0px;
+    }
+
+    .banner .title {
+        margin: 80px 0px 70px 0px;
+    }
+
+    .banner .title h1 {
+        font-size: 44px;
+    }
+
+    .banner .title h4 {
+        font-size: 24px;
+    }
+
+    .banner .img img {
+        width: 100%;
+        height: 390px;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* ABOUT SECTON STRAT */
+    /* ============================== */
+    .about {
+        padding: 80px 0px;
+    }
+
+    /* ============================== */
+    /* ABOUT SECTON END */
+    /* ============================== */
+    /* ============================== */
+    /* SERVICE SECTION STRAT */
+    /* ============================= */
+    .service {
+        padding: 80px 0px;
+    }
+
+    .service .service_img {}
+
+    .service .service_img .overly-color {}
+
+    .service .service_img .overly-color i {
+        font-size: 44px;
+        padding: 20px 0px 0px 20px;
+    }
+
+    .service .service_img .overly-color h4 {
+        font-size: 32px;
+        padding: 10px 0px 0px 20px;
+    }
+
+    .service .service_img .overly-color p {
+        padding: 10px 0px 0px 20px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    /* ============================== */
+    /* SERVICE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* PORTFOLIO SECTION STRAT */
+    /* ============================= */
+    .portflio {
+        padding: 80px 0px;
+    }
+
+    .portflio .portfolio-controllers {
+        padding: 5px;
+    }
+
+    /* ============================== */
+    /* PORTFOLIO SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* Experiences SECTION START */
+    /* ============================= */
+    .experiences {
+        padding: 80px 0px;
+    }
+
+    /* ============================== */
+    /* Experiences SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* HIRE SECTION STRAT */
+    /* ============================= */
+    .hire-me {
+        padding: 80px 0px;
+    }
+
+    /* ============================== */
+    /* HIRE SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* CONTACT SECTION STRAT */
+    /* ============================= */
+    .contact-us {
+        padding: 80px 0px;
+    }
+
+    .contact-us .contact-title {
+        padding: 0px 0px 40px 41%;
+        margin: 0px;
+    }
+
+    .contact-us .contact-title .unline {
+        margin-left: 25px;
+    }
+
+    /* ============================== */
+    /* CONTACT SECTION END */
+    /* ============================= */
+    /* ============================== */
+    /* FOOTER SECTION STRAT */
+    /* ============================= */
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .footer-text {}
+
+    .footer .footer-text ul {
+        padding: 0px 0px 0px 45px;
+    }
+
+    .footer .footer-text ul li {
+        height: 60px;
+        width: 60px;
+        margin: 50px 0px 0px 10px;
+    }
+
+    .footer .footer-text ul li a {
+        line-height: 60px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION END */
+    /* ============================= */
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+}
