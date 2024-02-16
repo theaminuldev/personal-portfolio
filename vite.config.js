@@ -14,7 +14,8 @@ export default defineConfig({
         rollupOptions: {
             // If you have a specific entry point for your application
             input: {
-                main: 'src/js/main.js',
+				main: 'src/assets/js/main.js',
+				plugins: 'src/assets/js/plugins.js',
             },
         },
     },
