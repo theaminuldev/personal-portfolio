@@ -1,46 +1,26 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-dupe-keys */
 module.exports = {
-	"root": true,
-	"env": {
-		"browser": true,
-		"es2023": true,
-		"node": true
-	},
-	"extends": [
-		"airbnb-base",
-		"eslint:recommended",
-		"plugin:import/recommended",
-		"plugin:prettier/recommended",
-		"eslint-config-prettier"
+	root: true,
+	env: { browser: true, es2020: true },
+	extends: [
+		'eslint:recommended',
+		'plugin:react/recommended',
+		'plugin:react/jsx-runtime',
+		'plugin:react-hooks/recommended',
+		'plugin:import/recommended',
+		'plugin:prettier/recommended',
+		'eslint-config-prettier',
 	],
-	"plugins": [
-		"import",
-		"prettier"
-	],
-	"parserOptions": {
-		"ecmaVersion": "latest",
-		"sourceType": "module"
+	ignorePatterns: ['dist', '.eslintrc.cjs'],
+	parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+	settings: { react: { version: '18.2' } },
+	plugins: ['react-refresh'],
+	rules: {
+	  'react-refresh/only-export-components': [
+		'warn',
+		{ allowConstantExport: true },
+	  ],
 	},
-	"settings": {
-		"import/resolver": {
-			"node": {
-				"extensions": [
-					".js"
-				],
-				"moduleDirectory": [
-					"node_modules",
-					"src/"
-				]
-			}
-		}
-	},
-	"rules": {
-		"prettier/prettier": "error",
-		"no-console": "error",
-		"import/no-extraneous-dependencies": [
-			"error",
-			{
-				"devDependencies": true
-			}
-		]
-	}
-}
+  }
+  

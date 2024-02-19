@@ -1412,6 +1412,7 @@
 	color: #fff;
 	padding: 20px 10px 15px 10px;
 	margin: 0 10px;
+	/* display: inline-block; */
   }
   
   .navbar .navbar-nav .nav-link .rolling-text {

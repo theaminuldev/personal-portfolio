@@ -1,5 +1,6 @@
 .vscode
-dist
-node_modules
+dist/
+src/assets/js/lib/
+node_modules/
 vite.config.ts
 postcss.config.js
