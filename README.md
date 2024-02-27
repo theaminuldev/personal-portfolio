@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/theaminuldev/personal-portfolio/tree/master/public/banner.png" alt="Portfolio Banner">
+  <img src="https://github.com/theaminuldev/personal-portfolio/blob/master/public/banner.png" alt="Portfolio Banner">
 </div>
 
 # Nick Diego Personal Portfolio
