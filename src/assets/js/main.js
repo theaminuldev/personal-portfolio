@@ -1,20 +1,3 @@
-/* eslint-disable prettier/prettier */
-/* eslint-disable no-sequences */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable consistent-return */
-/* eslint-disable no-multi-assign */
-/* eslint-disable vars-on-top */
-/* eslint-disable no-var */
-/* eslint-disable no-redeclare */
-/* eslint-disable block-scoped-var */
-/* eslint-disable no-param-reassign */
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable camelcase */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-undef */
-/* eslint-disable func-names */
-
-
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: NICK DIEGO
