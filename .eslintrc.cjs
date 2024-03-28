@@ -17,10 +17,24 @@ module.exports = {
 	settings: { react: { version: '18.2' } },
 	plugins: ['react-refresh'],
 	rules: {
-	  'react-refresh/only-export-components': [
-		'warn',
-		{ allowConstantExport: true },
-	  ],
+		'react-refresh/only-export-components': [
+			'warn',
+			{ allowConstantExport: true },
+		],
+		'prettier/prettier': 'off',
+		'no-sequences': 'off',
+		'no-unused-expressions': 'off',
+		'consistent-return': 'off',
+		'no-multi-assign': 'off',
+		'vars-on-top': 'off',
+		'no-var': 'off',
+		'no-redeclare': 'off',
+		'block-scoped-var': 'off',
+		'no-param-reassign': 'off',
+		'no-restricted-syntax': 'off',
+		'camelcase': 'off',
+		'no-unused-vars': 'off',
+		'no-undef': 'off',
+		'func-names': 'off',
 	},
-  }
-  
+}
