@@ -1,3 +1,4 @@
+
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: NICK DIEGO
@@ -39,7 +40,7 @@ $(document).ready(function () {
 				$(this).find('.dropdown-menu').removeClass('show');
 			},
 		);
-	
+
 		$('.navbar .dropdown-item').hover(
 			function () {
 				$(this).find('.dropdown-side').addClass('show');
@@ -48,26 +49,26 @@ $(document).ready(function () {
 				$(this).find('.dropdown-side').removeClass('show');
 			},
 		);
-	
+
 		$('.navbar .search-form').on('click', '.search-icon', function () {
 			$('.navbar .search-form').toggleClass('open');
-	
+
 			if ($('.navbar .search-form').hasClass('open')) {
 				$('.search-form .close-search').slideDown();
 			} else {
 				$('.search-form .close-search').slideUp();
 			}
 		});
-	
+
 		$('.navbar').on('click', '.navbar-toggler', function () {
 			$('.navbar .navbar-collapse').toggleClass('show');
 		});
-	
+
 		wind.on('scroll', function () {
 			const bodyScroll = wind.scrollTop();
 			const navbar = $('.navbar');
 			const logo = $('.navbar.change .logo> img');
-	
+
 			if (bodyScroll > 300) {
 				navbar.addClass('nav-scroll');
 				logo.attr('src', 'assets/imgs/logo-dark.png');
@@ -76,7 +77,7 @@ $(document).ready(function () {
 				logo.attr('src', 'assets/imgs/logo-light.png');
 			}
 		});
-	
+
 		function noScroll() {
 			window.scrollTo(0, 0);
 		}
@@ -204,35 +205,35 @@ $(document).ready(function () {
 
 	/* ========== YouTubePopUp ========== */
 
-	$('a.vid').YouTubePopUp();
+	// $('a.vid').YouTubePopUp();
 
 	/* ========== parallaxie ========== */
 
-	$('.parallaxie').parallaxie({
-		speed: 0.8,
-		size: 'cover',
-	});
+	// $('.parallaxie').parallaxie({
+	// 	speed: 0.8,
+	// 	size: 'cover',
+	// });
 
 	/* ========== paroller ========== */
 
-	$('.my-paroller').paroller();
+	// $('.my-paroller').paroller();
 
 	/* ========== magnificPopup ========== */
 
-	$('.popup-img , .gallery').magnificPopup({
-		delegate: '.popimg',
-		type: 'image',
-		gallery: {
-			enabled: true,
-		},
-	});
+	// $('.popup-img , .gallery').magnificPopup({
+	// 	delegate: '.popimg',
+	// 	type: 'image',
+	// 	gallery: {
+	// 		enabled: true,
+	// 	},
+	// });
 
 	/* =========== hover3d =========== */
 
-	$('.hover3d').hover3d({
-		selector: '.hover3d-child',
-		invert: true,
-	});
+	// $('.hover3d').hover3d({
+	// 	selector: '.hover3d-child',
+	// 	invert: true,
+	// });
 
 	/* =========== countUp =========== */
 
@@ -314,20 +315,20 @@ $(document).ready(function () {
 	-----------------------------  isotope Masonery   ------------------------------
 	============================================================================= */
 
-	$('.gallery').isotope({
-		itemSelector: '.items',
-	});
+	// $('.gallery').isotope({
+	// 	itemSelector: '.items',
+	// });
 
-	const $gallery = $('.gallery').isotope();
+	// const $gallery = $('.gallery').isotope();
 
-	$('.filtering').on('click', 'span', function () {
-		const filterValue = $(this).attr('data-filter');
-		$gallery.isotope({ filter: filterValue });
-	});
+	// $('.filtering').on('click', 'span', function () {
+	// 	const filterValue = $(this).attr('data-filter');
+	// 	$gallery.isotope({ filter: filterValue });
+	// });
 
-	$('.filtering').on('click', 'span', function () {
-		$(this).addClass('active').siblings().removeClass('active');
-	});
+	// $('.filtering').on('click', 'span', function () {
+	// 	$(this).addClass('active').siblings().removeClass('active');
+	// });
 
 	/* =============================================================================
 	-----------------------------  Contact Valdition   -----------------------------
@@ -387,98 +388,98 @@ $(document).ready(function () {
 	}
 
 	$('[data-carousel="swiper"]').each(function () {
-        const containerId = $(this).find('[data-swiper="container"]').attr('id');
-        const paginationId = $(this).find('[data-swiper="pagination"]').attr('id');
-        const prevId = $(this).find('[data-swiper="prev"]').attr('id');
-        const nextId = $(this).find('[data-swiper="next"]').attr('id');
-        const items = $(this).data('items');
-        const autoplay = $(this).data('autoplay');
-        const initialSlide = $(this).data('initial');
-        const loop = $(this).data('loop');
-        const parallax = $(this).data('parallax');
-        const space = $(this).data('space');
-        const speed = $(this).data('speed');
-        const center = $(this).data('center');
-        const effect = $(this).data('effect');
-        const direction = $(this).data('direction');
-        const mousewheel = $(this).data('mousewheel');
+		const containerId = $(this).find('[data-swiper="container"]').attr('id');
+		const paginationId = $(this).find('[data-swiper="pagination"]').attr('id');
+		const prevId = $(this).find('[data-swiper="prev"]').attr('id');
+		const nextId = $(this).find('[data-swiper="next"]').attr('id');
+		const items = $(this).data('items');
+		const autoplay = $(this).data('autoplay');
+		const initialSlide = $(this).data('initial');
+		const loop = $(this).data('loop');
+		const parallax = $(this).data('parallax');
+		const space = $(this).data('space');
+		const speed = $(this).data('speed');
+		const center = $(this).data('center');
+		const effect = $(this).data('effect');
+		const direction = $(this).data('direction');
+		const mousewheel = $(this).data('mousewheel');
 
-        let conf = {};
+		let conf = {};
 
-        if ($(this).hasClass('swiper5')) {
-            conf = {
-                breakpoints: {
-                    0: { slidesPerView: 2 },
-                    640: { slidesPerView: 3 },
-                    768: { slidesPerView: 3 },
-                    1024: { slidesPerView: 5 }
-                }
-            };
-        } else if ($(this).hasClass('swiper4')) {
-            conf = {
-                breakpoints: {
-                    0: { slidesPerView: 1, spaceBetween: 10 },
-                    640: { slidesPerView: 2, spaceBetween: 30 },
-                    768: { slidesPerView: 3 },
-                    1024: { slidesPerView: 4 }
-                }
-            };
-        } else if ($(this).hasClass('work-swiper')) {
-            conf = {
-                pagination: { el: '.swiper-pagination', clickable: true },
-                navigation: { nextEl: '.work-controls .swiper-button-next', prevEl: '.work-controls .swiper-button-prev' },
-                breakpoints: {
-                    0: { slidesPerView: 1 },
-                    640: { slidesPerView: 1 },
-                    768: { slidesPerView: 2 },
-                    1024: { slidesPerView: 2 }
-                }
-            };
-        } else if ($(this).hasClass('testim-swiper')) {
-            conf = {
-                pagination: { el: '.swiper-pagination', clickable: true },
-                navigation: { nextEl: '.testim-controls .swiper-button-next', prevEl: '.testim-controls .swiper-button-prev' },
-                breakpoints: {
-                    0: { slidesPerView: 1 },
-                    640: { slidesPerView: 1 },
-                    768: { slidesPerView: 1 },
-                    1024: { slidesPerView: 2 }
-                }
-            };
-        } else if ($(this).hasClass('pagination')) {
-            conf = { pagination: { el: '.swiper-pagination', clickable: true } };
-        }
+		if ($(this).hasClass('swiper5')) {
+			conf = {
+				breakpoints: {
+					0: { slidesPerView: 2 },
+					640: { slidesPerView: 3 },
+					768: { slidesPerView: 3 },
+					1024: { slidesPerView: 5 }
+				}
+			};
+		} else if ($(this).hasClass('swiper4')) {
+			conf = {
+				breakpoints: {
+					0: { slidesPerView: 1, spaceBetween: 10 },
+					640: { slidesPerView: 2, spaceBetween: 30 },
+					768: { slidesPerView: 3 },
+					1024: { slidesPerView: 4 }
+				}
+			};
+		} else if ($(this).hasClass('work-swiper')) {
+			conf = {
+				pagination: { el: '.swiper-pagination', clickable: true },
+				navigation: { nextEl: '.work-controls .swiper-button-next', prevEl: '.work-controls .swiper-button-prev' },
+				breakpoints: {
+					0: { slidesPerView: 1 },
+					640: { slidesPerView: 1 },
+					768: { slidesPerView: 2 },
+					1024: { slidesPerView: 2 }
+				}
+			};
+		} else if ($(this).hasClass('testim-swiper')) {
+			conf = {
+				pagination: { el: '.swiper-pagination', clickable: true },
+				navigation: { nextEl: '.testim-controls .swiper-button-next', prevEl: '.testim-controls .swiper-button-prev' },
+				breakpoints: {
+					0: { slidesPerView: 1 },
+					640: { slidesPerView: 1 },
+					768: { slidesPerView: 1 },
+					1024: { slidesPerView: 2 }
+				}
+			};
+		} else if ($(this).hasClass('pagination')) {
+			conf = { pagination: { el: '.swiper-pagination', clickable: true } };
+		}
 
-        // Apply individual settings
-        if (items) conf.slidesPerView = items;
-        if (autoplay) conf.autoplay = autoplay;
-        if (initialSlide) conf.initialSlide = initialSlide;
-        if (loop) conf.loop = loop;
-        if (parallax) conf.parallax = parallax;
-        if (space) conf.spaceBetween = space;
-        if (speed) conf.speed = speed;
-        if (center) conf.centeredSlides = center;
-        if (mousewheel) conf.mousewheel = mousewheel;
-        if (effect) conf.effect = effect;
-        if (direction) conf.direction = direction;
-        if (prevId) conf.prevButton = `#${prevId}`;
-        if (nextId) conf.nextButton = `#${nextId}`;
-        if (paginationId) conf.pagination = `#${paginationId}`, conf.paginationClickable = true;
+		// Apply individual settings
+		if (items) conf.slidesPerView = items;
+		if (autoplay) conf.autoplay = autoplay;
+		if (initialSlide) conf.initialSlide = initialSlide;
+		if (loop) conf.loop = loop;
+		if (parallax) conf.parallax = parallax;
+		if (space) conf.spaceBetween = space;
+		if (speed) conf.speed = speed;
+		if (center) conf.centeredSlides = center;
+		if (mousewheel) conf.mousewheel = mousewheel;
+		if (effect) conf.effect = effect;
+		if (direction) conf.direction = direction;
+		if (prevId) conf.prevButton = `#${prevId}`;
+		if (nextId) conf.nextButton = `#${nextId}`;
+		if (paginationId) conf.pagination = `#${paginationId}`, conf.paginationClickable = true;
 
-        // Initialize swiper if container exists
-        if (containerId) new Swiper(`#${containerId}`, conf);
-    });
+		// Initialize swiper if container exists
+		if (containerId) new Swiper(`#${containerId}`, conf);
+	});
 
-    // Preloader animation
-    const tl = gsap.timeline();
-    tl.to('.loader-wrap-heading .load-text , .loader-wrap-heading .cont', { delay: 1.5, y: -100, opacity: 0 })
-      .to($('#svg'), { duration: 0.5, attr: { d: 'M0 502S175 272 500 272s500 230 500 230V0H0Z' }, ease: 'power2.easeIn' })
-      .to($('#svg'), { duration: 0.5, attr: { d: 'M0 2S175 1 500 1s500 1 500 1V0H0Z' }, ease: 'power2.easeOut' })
-      .to('.loader-wrap', { y: -1500 })
-      .to('.loader-wrap', { zIndex: -1, display: 'none' })
-      .from($('header'), { y: 200 }, '-=1.5')
+	// Preloader animation
+	const tl = gsap.timeline();
+	tl.to('.loader-wrap-heading .load-text , .loader-wrap-heading .cont', { delay: 1.5, y: -100, opacity: 0 })
+		.to($('#svg'), { duration: 0.5, attr: { d: 'M0 502S175 272 500 272s500 230 500 230V0H0Z' }, ease: 'power2.easeIn' })
+		.to($('#svg'), { duration: 0.5, attr: { d: 'M0 2S175 1 500 1s500 1 500 1V0H0Z' }, ease: 'power2.easeOut' })
+		.to('.loader-wrap', { y: -1500 })
+		.to('.loader-wrap', { zIndex: -1, display: 'none' })
+		.from($('header'), { y: 200 }, '-=1.5')
 		.from($('header .container'), { y: 40, opacity: 0, delay: 0.3 }, '-=1.5');
-	
+
 	/* =============================================================================
 	-----------------------------  Button scroll up   ------------------------------
 	============================================================================= */
@@ -498,7 +499,7 @@ $(document).ready(function () {
 			const progress = pathLength - (scroll * pathLength) / height;
 			progressPath.style.strokeDashoffset = progress;
 		};
-		
+
 		updateProgress();
 		$(window).scroll(updateProgress);
 

@@ -11,21 +11,35 @@
 		"build": "vite build",
 		"preview": "vite preview --open"
 	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.5.2",
+		"@popperjs/core": "^2.11.8",
+		"animate.css": "^4.1.1",
+		"bootstrap": "^5.3.3",
+		"countup.js": "^2.8.0",
+		"gsap": "^3.12.5",
+		"jquery": "^3.7.1",
+		"scrollit": "^1.0.5",
+		"splitting": "^1.0.6",
+		"sticky-kit": "^1.1.3",
+		"swiper": "^11.1.1",
+		"wowjs": "^1.1.3"
+	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.17",
-		"postcss": "^8.4.33",
-		"sass": "^1.70.0",
-		"vite": "^5.0.8"
-	},
-	"dependencies": {
 		"eslint": "^8.56.0",
 		"eslint-config-airbnb-base": "^15.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
 		"eslint-plugin-prettier": "^5.1.3",
+		"html-minifier-terser": "^7.2.0",
+		"postcss": "^8.4.33",
 		"postcss-nesting": "^12.0.3",
 		"prettier": "^3.2.5",
+		"sass": "^1.70.0",
 		"the-new-css-reset": "^1.11.2",
+		"vite": "^5.0.8",
+		"vite-plugin-copy": "^0.1.6",
 		"vite-plugin-eslint": "^1.8.1"
 	}
 }

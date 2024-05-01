@@ -1,29 +1,32 @@
-import { defineConfig } from 'vite';
+// vite.config.js
+import { defineConfig } from 'vite'
+import { copy } from 'vite-plugin-copy'
+import { minify } from 'html-minifier-terser'
 
 export default defineConfig({
-	publicDir: 'public',
-	root: './',
+	plugins: [
+		copy({
+			targets: [
+				{
+					src: './*.html', dest: 'dist', transform: (contents) => minify(
+						contents.toString(), {
+						collapseWhitespace: true,
+						removeComments: true
+					})
+				}
+			],
+			hook: 'writeBundle' // run the plugin at this stage
+		})
+	],
 	build: {
-		outDir: 'dist', 
-	},
-
-	server: {
-		// Specify the port for the development server
-		port: 3000,
-
-		// Configure proxy settings if needed
-		proxy: {
-			// '/api': 'http://localhost:5000',
-		},
-	},
-
-	// Configure the CSS preprocessor for SCSS
-	css: {
-		preprocessorOptions: {
-			scss: {
-				// Specify the path to your main SCSS file
-				// additionalData: `@import "src/scss/style.scss";`,
+		outDir: 'dist',
+		minify: 'terser', // or 'esbuild'
+		assetsDir: 'assets',
+		cssCodeSplit: false, // This will bundle all CSS into a single file
+		rollupOptions: {
+			output: {
+				manualChunks: () => 'bundle.js',
 			},
 		},
 	},
-});
+})
