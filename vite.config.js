@@ -1,22 +1,37 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import { copy } from 'vite-plugin-copy'
+import fs from 'fs'
 import { minify } from 'html-minifier-terser'
+import path from 'path'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
 	plugins: [
-		copy({
-			targets: [
-				{
-					src: './*.html', dest: 'dist', transform: (contents) => minify(
-						contents.toString(), {
+		{
+			name: 'copy-html',
+			apply: 'build',
+			transformIndexHtml: {
+				order: 1, // 'pre' is replaced with order: 1
+				handler(html) { // 'transform' is replaced with 'handler'
+					const sourceDir = './';
+					const destinationDir = 'dist/';
+
+					// Check if destination directory exists, if not, create it
+					if (!fs.existsSync(destinationDir)) {
+						fs.mkdirSync(destinationDir);
+					}
+
+					fs.readdirSync(sourceDir).forEach(file => {
+						if (path.extname(file) === '.html') {
+							fs.copyFileSync(path.join(sourceDir, file), path.join(destinationDir, file));
+						}
+					});
+
+					return minify(html, {
 						collapseWhitespace: true,
 						removeComments: true
 					})
-				}
-			],
-			hook: 'writeBundle' // run the plugin at this stage
-		})
+				},
+			},
+		},
 	],
 	build: {
 		outDir: 'dist',

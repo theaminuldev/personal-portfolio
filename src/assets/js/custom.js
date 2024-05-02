@@ -47,7 +47,8 @@ import 'sticky-kit/dist/sticky-kit';
  * @see https://wowjs.uk/
  *
 */
-import WOW from 'wowjs';
+import * as wowjs from 'wowjs';
+const WOW = wowjs.WOW;
 
 /**
  * Init Swiper 
